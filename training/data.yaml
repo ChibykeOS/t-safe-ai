@@ -1,0 +1,6 @@
+train: ../data/processed/images/train
+val: ../data/processed/images/val
+test: ../data/processed/images/test
+
+nc: 3
+names: ['person', 'helmet', 'vest']  # Vest added for later; YOLO ignores missing classes now
